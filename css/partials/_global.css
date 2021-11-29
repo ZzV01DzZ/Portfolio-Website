@@ -1,3 +1,4 @@
+
 .title-text{
     font: normal bold 50px/ 72px var(--roboto);
 }
@@ -5,6 +6,8 @@
 .text-uppercase{
     text-transform: uppercase;
 }
+
+
 
 .button{
     padding: .8rem 2.2rem;
@@ -18,7 +21,7 @@
     background: var(--gradient-color);
     background-clip: padding-box;
     color: whitesmoke;
-    transition: background.6s ease;
+    transition:  .6s ease;
     box-shadow: var(--box-shadow);
 }
 
@@ -33,7 +36,7 @@
     top: -2px; left: -2px;
     bottom: -2px;  right: -2px;
     background: var(--gradient-color);
-    content: '';
+    content: ' ';
     z-index: -1;
     border-radius: 4px;
 }
@@ -41,7 +44,7 @@
 .button.secondary-button{
     background: white;
     background-clip: padding-box;
-    transition: background.6s ease;
+    transition:  .6s ease;
 }
 
 .button.secondary-button:hover{
@@ -81,5 +84,5 @@ button:hover
     background: #ffffff;
     box-shadow: var(--box-shadow);
     z-index: 999;
-    transition: background 1s ease;
+    transition:  1s ease;
 }

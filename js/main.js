@@ -25,7 +25,7 @@ $(document).ready(function () {
     });
 
 
- 
+    // Owl-carousel
 
     $('.site-main .about-area .owl-carousel').owlCarousel({
         loop: true,
@@ -41,7 +41,7 @@ $(document).ready(function () {
         }
     })
 
-
+    // sticky navigation menu
 
     let nav_offset_top = $('.header_area').height() + 50;
 
